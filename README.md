@@ -49,7 +49,8 @@ Just add the plugin to your pom:
             <optimizerFile>
                 ${basedir}/src/main/scripts/r.js
             </optimizerFile>
-            <!-- whether or not to process config with maven filters -->
+            <!-- whether or not to process config with maven filters.
+            Attention: important note regarding this option in the Readme! -->
             <filterConfig>
                 true
             </filterConfig>
