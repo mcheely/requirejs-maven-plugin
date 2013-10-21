@@ -104,6 +104,12 @@ http://requirejs.org/docs/optimization.html#wholeproject
 
 ### Plugin Options
 
+**runner**
+
+Specifies which Javascript engine is used to execute the r.js optimizer. Can be either *rhino* or *nodejs*, defaults to *nodejs*.
+When using *nodejs*, the plugin will try and detect the node executable. To customize the node executable's location, supply a path
+to the executable using nodeJsFile
+
 **nodeExecutable**
 
 An optional path to a nodejs executable. This should not be needed if node is in the system path as 'node' or 'nodejs';
